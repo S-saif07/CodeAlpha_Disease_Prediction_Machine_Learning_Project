@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+# Virtual environments
+.venv/
+venv/
+env/
+# Jupyter
+.ipynb_checkpoints/
+# Generated artifacts (re-created by running the project)
+models/*
+!models/.gitkeep
+reports/best_model_report.txt
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Secrets
+.env

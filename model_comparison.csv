@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1,ROC_AUC,False_Negatives,False_Positives,CV_Recall_Mean,CV_F1_Mean
+Logistic Regression,0.9649,0.975,0.9286,0.9512,0.996,3,1,0.9529,0.964
+XGBoost,0.9561,1.0,0.881,0.9367,0.9937,5,0,0.9529,0.9614
+SVM (RBF),0.9737,1.0,0.9286,0.963,0.9947,3,0,0.9471,0.961
+Random Forest,0.9737,1.0,0.9286,0.963,0.9944,3,0,0.9353,0.9461
